@@ -11,18 +11,6 @@ C# 刷题记录，持续更新中。
 
 ## 分类目录
 
-### 数组 (01_Array)
+### 数组
 - [704. 二分查找](./01_Array/0704_BinarySearch.cs)
 - [27. 移除元素](./01_Array/0027_RemoveElement.cs)
-
-### 字符串 (02_String)
-- （待补充）
-
-### 链表 (03_LinkedList)
-- （待补充）
-
-### 哈希表 (04_HashTable)
-- （待补充）
-
-### 二叉树 (05_BinaryTree)
-- （待补充）
