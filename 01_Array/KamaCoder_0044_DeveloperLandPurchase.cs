@@ -1,5 +1,6 @@
-// 44. 开发商购买土地
+// [卡码网 44] 开发商购买土地（第五期模拟笔试）
 // https://kamacoder.com/problempage.php?pid=1044
+// 注意：这是卡码网的题，不是 LeetCode 44 (Wildcard Matching)，两者毫无关系
 // 时间复杂度：O(n*m)
 // 空间复杂度：O(1)
 // 核心思路：前缀和

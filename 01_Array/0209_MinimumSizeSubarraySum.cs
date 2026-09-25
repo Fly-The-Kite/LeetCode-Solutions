@@ -8,6 +8,8 @@
 //   - 每次满足条件时记录窗口长度，取最小值
 // 关键点：while(sum >= target) 是收缩窗口的条件，不是 if
 
+using System;
+
 public class Solution {
     public int MinSubArrayLen(int target, int[] nums) {
         int left = 0;

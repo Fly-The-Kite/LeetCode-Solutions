@@ -13,6 +13,8 @@
 //   - AddAtHead 和 AddAtTail 都复用 AddAtIndex，避免重复代码
 //   - Get 方法从哨兵走 index+1 步，因为哨兵是第 0 个位置，真实节点从第 1 步开始
 
+using System;
+
 // 链表节点定义
 public class LinkList {
     public int val;        // 节点的值
