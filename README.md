@@ -20,6 +20,7 @@ C# 刷题记录，持续更新中。跟的是[代码随想录](https://programme
 | 2026-09-09 | KamaCoder | 44 | 开发商购买土地 | Easy | 数组 | 前缀和进阶，横切+竖切 |
 | 2026-09-17 | LeetCode | 203 | 移除链表元素 | Easy | 链表 | 哨兵节点+临时指针，res 不动 temp 动 |
 | 2026-09-23 | LeetCode | 707 | 设计链表 | Medium | 链表 | 哨兵节点+size 计数，插入先连后连前 |
+| 2026-09-28 | LeetCode | 206 | 反转链表 | Easy | 链表 | 三指针 pre/cur/temp，循环条件必须 `cur != null` |
 
 ## 分类目录
 
@@ -35,6 +36,7 @@ C# 刷题记录，持续更新中。跟的是[代码随想录](https://programme
 ### 链表
 - [203. 移除链表元素](./02_LinkedList/0203_RemoveLinkedListElements.cs) · LeetCode
 - [707. 设计链表](./02_LinkedList/0707_DesignLinkedList.cs) · LeetCode
+- [206. 反转链表](./02_LinkedList/0206_ReverseLinkedList.cs) · LeetCode
 
 ## 命名约定
 
