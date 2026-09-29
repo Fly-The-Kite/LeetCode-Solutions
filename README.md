@@ -21,6 +21,7 @@ C# 刷题记录，持续更新中。跟的是[代码随想录](https://programme
 | 2026-09-17 | LeetCode | 203 | 移除链表元素 | Easy | 链表 | 哨兵节点+临时指针，res 不动 temp 动 |
 | 2026-09-23 | LeetCode | 707 | 设计链表 | Medium | 链表 | 哨兵节点+size 计数，插入先连后连前 |
 | 2026-09-28 | LeetCode | 206 | 反转链表 | Easy | 链表 | 三指针 pre/cur/temp，循环条件必须 `cur != null` |
+| 2026-09-29 | LeetCode | 19 | 删除链表的倒数第 N 个结点 | Medium | 链表 | 哨兵节点+快慢指针，快指针先走 n+1 步，slow 停在待删节点的前驱 |
 
 ## 分类目录
 
@@ -37,6 +38,7 @@ C# 刷题记录，持续更新中。跟的是[代码随想录](https://programme
 - [203. 移除链表元素](./02_LinkedList/0203_RemoveLinkedListElements.cs) · LeetCode
 - [707. 设计链表](./02_LinkedList/0707_DesignLinkedList.cs) · LeetCode
 - [206. 反转链表](./02_LinkedList/0206_ReverseLinkedList.cs) · LeetCode
+- [19. 删除链表的倒数第 N 个结点](./02_LinkedList/0019_RemoveNthNodeFromEndOfList.cs) · LeetCode
 
 ## 命名约定
 
