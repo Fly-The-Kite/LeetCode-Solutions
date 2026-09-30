@@ -23,6 +23,7 @@ C# 刷题记录，持续更新中。跟的是[代码随想录](https://programme
 | 2026-09-28 | LeetCode | 206 | 反转链表 | Easy | 链表 | 三指针 pre/cur/temp，循环条件必须 `cur != null` |
 | 2026-09-29 | LeetCode | 19 | 删除链表的倒数第 N 个结点 | Medium | 链表 | 哨兵节点+快慢指针，快指针先走 n+1 步，slow 停在待删节点的前驱 |
 | 2026-09-29 | LeetCode | 160 | 相交链表 | Easy | 链表 | 长度对齐法：长的先走长度差步，再用 `curA == curB` 引用比较 |
+| 2026-09-30 | LeetCode | 142 | 环形链表 II | Medium | 链表 | 快慢指针两段式：先相遇判环，再 head+相遇点同速走到入环点；循环条件必须判 `fast != null && fast.next != null` |
 
 ## 分类目录
 
@@ -41,6 +42,7 @@ C# 刷题记录，持续更新中。跟的是[代码随想录](https://programme
 - [206. 反转链表](./02_LinkedList/0206_ReverseLinkedList.cs) · LeetCode
 - [19. 删除链表的倒数第 N 个结点](./02_LinkedList/0019_RemoveNthNodeFromEndOfList.cs) · LeetCode
 - [160. 相交链表](./02_LinkedList/0160_IntersectionOfTwoLinkedLists.cs) · LeetCode
+- [142. 环形链表 II](./02_LinkedList/0142_LinkedListCycleII.cs) · LeetCode
 
 ## 命名约定
 
